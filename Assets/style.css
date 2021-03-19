@@ -1,0 +1,86 @@
+/* whole html has image as background */
+html {
+    background-color: black;
+    min-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* This styles border of whole page */
+#top, #bottom, #left, #right {
+	background: #a5ebff;
+	position: fixed;
+	shadow: 20px 20px 20px 20px rgba(90, 158, 167, 0.4);
+	}
+#left, #right {
+		top: 0; bottom: 0;
+		width: 15px;
+		}
+#left { left: 0; }
+#right { right: 0; }	
+#top, #bottom {
+		left: 0; right: 0;
+		height: 15px;
+		}
+#top { top: 0; }
+#bottom { bottom: 0; }
+
+.btn {
+	color: #353d3f;
+	width: 20%;
+	height: 30%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 100%;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	font-weight: 700;
+	background-color: #fff;
+	border-radius: 45px;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	padding: 1.5%;
+	margin: 2% 2% 2% 8%;
+}
+
+.btn:hover {
+	background-color: #a5ebff;
+	box-shadow: 0px 15px 20px rgba(90, 158, 167, 0.4);
+	color: #353d3f;
+	transform: translateY(-7px);
+}
+
+.card {
+	color: #a5ebff;
+	font-family:'Roboto', sans-serif;
+	letter-spacing: 2.5px;
+	margin: 0;
+	padding-top: 10%;
+	text-shadow: 2px 2px 2px 2px #a5ebff;
+}
+
+.neon {
+	color: #353d3f;
+	text-shadow:
+	  0 0 5px #fff,
+	  0 0 10px #fff,
+	  0 0 20px #a5ebff,
+	  0 0 40px #a5ebff,
+	  0 0 80px #a5ebff,
+	  0 0 90px #a5ebff,
+	  0 0 100px #a5ebff,
+	  0 0 150px #a5ebff;
+}
+
+.card .lead {
+	font-size: 30px;
+}
+
+
+
+/* Gets rid of border on smaller screens */
+@media only screen and (max-width: 500px), only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	#top, #bottom, #left, #right { display: none; }
+}
+

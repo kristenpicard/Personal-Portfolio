@@ -1,9 +1,6 @@
 /* whole html has image as background */
 html {
     min-height: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
 }
 
 /* This styles border of whole page */
@@ -25,6 +22,7 @@ html {
 #top { top: 0; }
 #bottom { bottom: 0; }
 
+/* Styles list of buttons on home page */
 .btn {
 	color: #1b191a;
 	width: 20%;
@@ -50,15 +48,16 @@ html {
 	transform: translateY(-7px);
 }
 
+/* Styles jumbotrons on both pages */
 .card {
 	font-family:'Roboto', sans-serif;
 	letter-spacing: 2.5px;
 	margin: 0;
 	padding-top: 10%;
-	text-shadow: 2px 2px 2px 2px #85adcc;
 	border: none;
 }
 
+/* Adds neon effect to jumbotron headers */
 .neon {
 	color: #1b191a;
 	text-shadow:
@@ -72,28 +71,24 @@ html {
 	  0 0 150px #85adcc;
 }
 
-.header {
-	padding-left: 5%;
-	padding-right: 5%;
-}
-
+/* Styles the welcome section of home page */
 .card .lead {
 	font-size: 30px;
 	color: #85adcc;
 	border: none;
 }
 
+/* Adds padding to all containers */
 .container {
 	padding: 3%;
 }
 
-.bio {
-	padding-top: 3%;
-	padding-left: 5%;
-	padding-right: 3%;
-	padding-bottom: 3%;
+/* Adds paddin to skills section of home page */
+.skills {
+	padding-top: 3% 3% 3% 5%;
 }
 
+/* Styling on Kristen's headshot home pg */
 .img {
 	float: left;
 	padding-top: 1%;
@@ -104,6 +99,27 @@ html {
 	border-radius: 50%;
 }
 
+/* Styling JS Quiz image */
+.img2 {
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-right: 3%;
+	margin-left: 3%;
+	border: 5px solid;
+	border-color:#85adcc;
+	width: 40%;
+}
+
+/* Styling PW Generator image */
+.img3 {
+	float: right;
+	margin: 3%;
+	border: 5px solid;
+	border-color:#85adcc;
+	width: 40%;
+}
+
+/* styles several card body sections */
 .container .biobody {
 	color: white;
 	font-family:'Roboto', sans-serif;
@@ -114,6 +130,7 @@ html {
 	padding-left: 3%;
 }
 
+/* styles several card titles */
 .container .biobody .card-title {
 	color: white;
 	font-family:'Roboto', sans-serif;
@@ -121,6 +138,7 @@ html {
 	font-size: 150%;
 }
 
+/* styles skills card deck on home page */
 .card-deck {
 	padding-left: 4%;
 	padding-right: 4%;
@@ -147,6 +165,52 @@ html {
 
 .card {
 	padding-top:5%;
+}
+
+/* Styles buttons in JS Quiz section of projects */
+.btn2 {
+	color: #1b191a;
+	font-family: 'Roboto', sans-serif;
+	font-size: 70%;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	font-weight: 700;
+	background-color: #fff;
+	border-radius: 45px;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	margin: 2% 2% 2% 2%;
+	padding: 1%;
+}
+.btn2:hover {
+	background-color: #85adcc;
+	box-shadow: 0px 15px 20px rgb(92,128,156);
+	color: white;
+	transform: translateY(-7px);
+}
+
+/* styles buttons for password generator section of projects */
+.btn3 {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 70%;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	font-weight: 700;
+	background-color: #343a40;
+	border-radius: 45px;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	margin: 2% 2% 2% 2%;
+	padding: .5%;
+}
+.btn3:hover {
+	background-color: #85adcc;
+	box-shadow: 0px 15px 20px rgb(92,128,156);
+	color: white;
+	transform: translateY(-7px);
 }
 
 

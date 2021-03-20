@@ -1,34 +1,38 @@
 # Personal-Portfolio
 
-
-https://kristenpicard.github.io/Weather-Application/
+https://kristenpicard.github.io/Personal-Portfolio/
 
 ## Description 
 
-In this project I created a Weather Application.
+As I learn and grow as a developer, I wanted one place where I could showcase my projects and provide other developers and potential employers more information about who I am.
 
-Features of the scheduler:
+This project was created using solely HTML with CSS styling.
 
-When the user searches the name of a city, the current weather of that city is displayed along with the forecast of the upcoming 5 days in that city.
+This page includes a small bio with a photo of me:
+<br>
 
-Additionally, when the user searches the name of a city that city is stored in a button below the search field.
+![1](Screenshots/1.png)
 
-This allows the user to click on cities they have already searched and displays the cooresponding current and 5-day forecast from that city.
+There is a section to list my skills as well as a list of buttons that take you to various documents and pages that give more information about me as a developer and professional:
+<br>
 
-This screenshot shows the page when it loads:
+![2](Screenshots/2.png)
+
+I have a section listing ways to contact me:
 <br>
-![1](Assets/1.png)
+
+![3](Screenshots/3.png)
+
+When the "Projects" button is clicked, it takes you to another page showcasing three of my projects. Each project has a screenshot of the deployed page along with a link to its corresponding GitHub repository and a link to its live page.  
 <br>
-This screenshot shows what is displayed when the user searches for the city, "Denver":
-<br>
-![2](Assets/2.png)
-<br>
-This screenshot shows what is displayed as the user searches for an additional city, "San Diego":
-<br>
-![3](Assets/3.png)
+
+![4](Screenshots/4.png)
+
+Each of the buttons on the main page take you to the corresponding elements in a new tab.
+
 
 ## Installation
-Clone the repository at https://github.com/kristenpicard/Weather-Application and load it on
+Clone the repository at https://github.com/kristenpicard/Personal-Portfolio and load it on
 code editor of your choice. Vscode is the prefered editor.
 
 ## Credits
